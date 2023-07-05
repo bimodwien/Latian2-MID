@@ -7,7 +7,7 @@ const lotre = [
     {
         "nama": "bimo",
         "usia": 27,
-        "uang": 20000000
+        "uang": 2000000
     },
     {
         "nama": "tarjo",

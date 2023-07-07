@@ -26,7 +26,7 @@ const value = []
 for (let i = 0; i < lotre.length; i++){
     // console.log(lotre[i].nama)
     if(lotre[i].usia >= 21 && lotre[i].uang >= 400000) {
-        value.push({"nama": lotre[i].nama, "tiket":(lotre[i].uang/400000)})
+        value.push({"nama": lotre[i].nama, "tiket":(Math.floor(lotre[i].uang/400000))})
     }
 }
 console.log(value)
